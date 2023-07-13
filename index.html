@@ -1,0 +1,5 @@
+yum install httpd -y
+service httpd start
+echo "Velocity Application" >> /var/www/html/index.html
+chmod -R 777 /var/www/html/index.html
+service httpd restart
